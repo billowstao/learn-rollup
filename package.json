@@ -1,0 +1,16 @@
+{
+  "name": "learn-rollup",
+  "version": "0.1.0",
+  "description": "Learn rollup.js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm exec rollup -c"
+  },
+  "keywords": [],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "rollup": "^3.21.5"
+  }
+}
